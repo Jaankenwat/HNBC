@@ -3,7 +3,7 @@ dotenv.config(); // Load environment variables
 const express = require('express')
 const app = express()
 const path=require('path')
-const postmodel =require('../models/post')
+const postmodel =require('./models/post')
 const cookieparser =require('cookie-parser')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
